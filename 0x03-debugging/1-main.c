@@ -15,8 +15,8 @@ int main(void)
 
 	while (i < 10)
 	{
-	putchar('0' + i); // Convert i to character and print it
-	i++; 
+	putchar('0' + i);
+	i++; // 0r i += 1;
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
